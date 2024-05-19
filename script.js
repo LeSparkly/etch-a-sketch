@@ -19,14 +19,14 @@ function getGridSize() {
 }
 
 function drawCol(gridSize) {
-  let cellSize = 256 / gridSize;
+  let cellSize = 768 / gridSize;
   cellSize = cellSize + "px";
   console.log(cellSize);
 
   const drawColumn = document.createElement("div");
   drawColumn.className = "column";
   drawColumn.style.width = cellSize;
-  drawColumn.style.height = "256px";
+  drawColumn.style.height = "768px";
 
   for (let index = 0; index < gridSize; index++) {
     const drawDiv = document.createElement("div");

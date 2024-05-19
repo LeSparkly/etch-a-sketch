@@ -9,8 +9,8 @@ body {
 
 .container {
   display: flex;
-  height: 256px;
-  width: 256px;
+  height: 768px;
+  width: 768px;
   border: solid;
   flex-wrap: wrap;
   margin: 0;
