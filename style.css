@@ -1,3 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: darkseagreen;
+}
+
 .container {
   display: flex;
   height: 256px;
@@ -6,6 +15,7 @@
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 .cell {
@@ -20,4 +30,12 @@
 
 .color {
   background-color: black;
+}
+
+button {
+  margin: 6px;
+  padding: 4px 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: blanchedalmond;
 }
