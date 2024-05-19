@@ -1,16 +1,23 @@
 .container {
-    display: flex;
-    height: 256px;
-    width: 256px;
-    border: solid;
-    flex-wrap: wrap;
-
+  display: flex;
+  height: 256px;
+  width: 256px;
+  border: solid;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
-div {
-    border: solid;
+.cell {
+  padding: 0;
+  margin: 0;
+  border-width: 0;
 }
 
 .cell:hover {
-    background-color: red;
+  background-color: green;
+}
+
+.color {
+  background-color: black;
 }
